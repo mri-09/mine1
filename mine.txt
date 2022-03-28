@@ -1,0 +1,9 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz
+tar -xzvf xmrig-6.16.4-bionic-x64.tar.gz
+cd xmrig-6.16.4/
+nano config.json
+
+: rx.unmineable.com:3333:3333
+RVN:rCGwDqg18iPhis9CCSfR8Jg99ZQEVYZGekM.mine1
+
+sudo ./xmrig
